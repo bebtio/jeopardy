@@ -60,6 +60,21 @@ void setup()
 void loop() 
 {
 
+  switch( currentState )
+  {
+    case initState:
+    // Do something
+    break;
+    case waitState:
+    // Do something
+    break;
+    case askingQuestionState:
+    // Do something
+    break;
+    case buzzerState:
+    // Do something
+    break;
+  }
   if( CircuitPlayground.rightButton() )
   {
     readyForClicks();
